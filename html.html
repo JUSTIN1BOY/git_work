@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="30">
+<meta name="author" content="Runoob">
+<meta name="description" content="免费 Web & 编程 教程">
+<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+<!--<style type="text/css">
+body {background-color:yellow}
+p {color:blue}
+</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">-->
+<base href="http://www.runoob.com/images/" target="_blank">
+<title>菜鸟教程(runoob.com)</title>
+</head>
+
+<body>
+<!--这是一个注释，注释在浏览器中不会显示-->
+<b>粗体文本</b>
+<code>计算机代码</code>
+<em>强调文本</em>
+<i>斜体文本</i>
+<kbd>键盘输入</kbd> 
+<pre>预格式化文本</pre>
+<small>更小的文本</small>
+<strong>重要的文本</strong>
+ 
+<abbr> （缩写）
+<address> （联系信息）
+<bdo> （文字方向）
+<blockquote> （从另一个源引用的部分）
+<cite> （工作的名称）
+<del> （删除的文本）
+<ins> （插入的文本）
+<sub> （下标文本）
+<sup> （上标文本）
+
+<!--普通的链接：<a href="http://www.example.com/">链接文本</a>
+图像链接： <a href="http://www.example.com/"><img src="URL" alt="替换文本"></a>
+邮件链接： <a href="mailto:webmaster@example.com">发送e-mail</a>
+书签：-->
+<a id="tips">提示部分</a>
+<a href="#tips">跳到提示部分</a>
+<img src="URL" alt="替换文本" height="42" width="42">
+
+<!--<style type="text/css">
+h1 {color:red;}
+p {color:blue;}
+</style>-->
+<div>文档中的块级元素</div>
+<span>文档中的内联元素</span>
+<ul>
+    <li>项目</li>
+    <li>项目</li>
+</ul>
+
+<ol>
+    <li>第一项</li>
+    <li>第二项</li>
+</ol>
+
+<dl>
+  <dt>项目 1</dt>
+    <dd>描述项目 1</dd>
+  <dt>项目 2</dt>
+    <dd>描述项目 2</dd>
+</dl>
+
+<table border="1">
+  <tr>
+    <th>表格标题</th>
+    <th>表格标题</th>
+  </tr>
+  <tr>
+    <td>表格数据</td>
+    <td>表格数据</td>
+  </tr>
+</table>
+
+<iframe src="demo_iframe.htm"></iframe>
+
+<form action="demo_form.php" method="post/get">
+<input type="text" name="email" size="40" maxlength="50">
+<input type="password">
+<input type="checkbox" checked="checked">
+<input type="radio" checked="checked">
+<input type="submit" value="Send">
+<input type="reset">
+<input type="hidden">
+
+<select>
+<option>苹果</option>
+<option selected="selected">香蕉</option>
+<option>樱桃</option>
+</select>
+
+<textarea name="comment" rows="60" cols="20"></textarea>
+</form>
+
+<!--&lt; 等同于 <
+&gt; 等同于 >
+&#169; 等同于 ©  -->
+
+<script>
+document.write("Hello World!")
+</script> 
+
+<h1>我的第一段 JavaScript</h1>
+<p id="demo">
+JavaScript 能改变 HTML 元素的样式。
+</p>
+
+<script>
+function myFunction()
+{
+	x=document.getElementById("demo") // 找到元素
+	x.style.color="#ff0000";          // 改变样式
+}
+</script>
+
+<button type="button" onclick="myFunction()">点击这里</button>
+<div id="menu" style="background-color:#FFD700;height:200px;width:100px;float:left;">
+<b>菜单</b><br>
+HTML<br>
+CSS<br>
+JavaScript</div>
+
+<table border="1">
+    <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+    </tr>
+    <tr>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+    </tr>
+</table>
+
+table border="1">
+    <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+    </tr>
+    <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+    </tr>
+    <tr>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+    </tr>
+</table>
+
+<h1>我的第一个标题</h1>
+<h1>这是标题 1</h1>
+<h2>这是标题 2</h2>
+<h3>这是标题 3</h3>
+<h4>这是标题 4</h4>
+<h5>这是标题 5</h5>
+<h6>这是标题 6</h6>
+<a id="tips">有用的提示部分</a>
+<a href="#tips">访问有用的提示部分</a>
+<a href="http://www.runoob.com/html/html-links.html#tips">
+<a href="http://www.runoob.com/">访问菜鸟教程</a>
+<a href="http://www.runoob.com">这是一个链接使用了 href 属性</a>
+<a href="http://www.runoob.com/" target="_blank">访问菜鸟教程!</a>
+<p>如果你将 target 属性设置为 &quot;_blank&quot;, 链接将在新窗口打开。</p>
+
+<p>
+这是一个电子邮件链接：
+<a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">
+发送邮件</a>
+</p>
+
+<p>
+<b>注意:</b> 单词之间空格使用 %20 代替，以确保浏览器可以正常显示文本。
+</p>
+
+<p>创建图片链接:
+<a href="http://www.runoob.com/html/html-tutorial.html">
+<img  border="10" src="smiley.gif" alt="HTML 教程" width="32" height="32"></a></p>
+
+
+<p>无边框的图片链接:
+<a href="http://www.runoob.com/html/html-tutorial.html">
+<img border="0" src="smiley.gif" alt="HTML 教程" width="32" height="32"></a></p>
+
+<img src="/images/logo.png" width="258" height="39" />
+<p>这个<br>段落<br>演示了分行的效果</p>
+<p>我的第一个段落。</p>
+<p>hr 标签定义水平线：</p>
+	<hr />
+	<p>这是段落。</p>
+	<hr />
+	<p>这是段落。</p>
+<p>
+    春眠不觉晓，
+      处处闻啼鸟。
+        夜来风雨声，
+          花落知多少。
+</p>
+
+<p>注意，浏览器忽略了源代码中的排版（省略了多余的空格和换行）。</p>
+<h1 style="text-align:center;">居中对齐的标题</h1>
+<p>这是一个段落。</p>
+<h1 style="font-family:verdana;">一个标题</h1>
+<p style="font-family:arial;color:red;font-size:20px;">一个段落。</p>
+<h2 style="background-color:red;">这是一个标题</h2>
+<p style="background-color:green;">这是一个段落。</p>
+</body>
+
+<b>加粗文本</b><br><br>
+<i>斜体文本</i><br><br>
+<code>电脑自动输出</code><br><br>
+这是 <sub> 下标</sub> 和 <sup> 上标</sup>
+<form>
+First name: <input type="text" name="firstname"><br>
+Last name: <input type="text" name="lastname">
+</form>
+<form>
+Password: <input type="password" name="pwd">
+</form>
+<form>
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female">Female
+</form>
+<form>
+<input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+<input type="checkbox" name="vehicle" value="Car">I have a car 
+</form>
+<form name="input" action="html_form_action.php" method="get">
+Username: <input type="text" name="user">
+<input type="submit" value="Submit">
+</form>
+<!--如何将 HTML 转换为 XHTML
+添加一个 XHTML <!DOCTYPE> 到你的网页中
+添加 xmlns 属性添加到每个页面的html元素中。
+改变所有的元素为小写
+关闭所有的空元素
+修改所有的属性名称为小写
+所有属性值添加引号-->
+
+</body>
+</html>
